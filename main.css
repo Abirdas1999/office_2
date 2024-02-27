@@ -137,8 +137,16 @@ html{
         gap: 5rem;
     }
     .logo img{
-        height: 45px;
-        width: 50px;
+        height: 40px;
+        width: 45px;
+    }
+
+}
+@media screen and (max-width: 414px) {
+    .logo img{
+        height: 36px;
+        width: 41px;
+        margin-left: -1rem;
     }
 
 }
@@ -295,6 +303,14 @@ html{
         padding: 0.75rem 0.75rem;
         font-size: 15px;
     }
+}
+@media screen and (max-width: 414px) {
+    .text h1{
+        font-size: 2rem;
+        width: 93%;
+        line-height: 2.5rem;
+    }
+
 }
 @media screen and (max-width: 345px){
     .text h1{
@@ -555,7 +571,7 @@ html{
         padding-left: 3%;
     }
     .heading h1{
-        font-size: 10px;
+        font-size: 16px;
         padding: 5%;
     }
     .btn3{
@@ -579,6 +595,30 @@ html{
     }
 
 }
+@media screen and (max-width: 435px){
+    .blog1{
+        width: 80vw;
+    }
+    .blog-cont{
+        width: 70%;
+        padding: 4%;
+    }
+    .blog1 img{
+        width: 30%;
+    }
+    .btn3{
+        padding-top: 2%;
+    }
+
+}
+@media screen and (max-width: 348px){
+    .heading h1{
+        font-size: 10px;
+    }
+
+}
+    
+
 /* --------------------------testymonial 1------------------------------------------------------------ */
 .testy-container{
     width: 100vw;
@@ -804,22 +844,36 @@ html{
         font-size: 10px;
     }
     .face-content p{
-        display: none;
+        /* display: none; */
+    }
+    .part-a h1{
+        font-size: 16px;
+    }
+    .face{
+        display:none;
     }
 }
-@media screen and (max-width: 609px){
+@media screen and (max-width: 435px){
     .face-content h1{
-        font-size: 10px;
+        font-size: 12px;
     }
     .face-content p{
         display: block;
         font-size: 9px;
     }
-    .face{
-        display:none;
-    }
+    
     .part-a h1{
         font-size: 16px;
+    }
+    .design{
+        display: none;
+    }
+    .testy3{
+        width: 173vw;
+        margin-left: 3rem;
+    }
+    .part-a{
+        font-size: 20px;
     }
 }
 /* ----------------------------------footer---------------------------------------------- */
@@ -1069,6 +1123,38 @@ html{
     }
     .subscribe{
         margin-top: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .foot-design-contain{
+        display: none;
+    }
+}
+@media(max-width:475px){
+    .logo5 img{
+        height: 3rem;
+        width: 3rem;
+    }
+    .lorem p{
+        font-size: 10px;
+        width: 20rem;
+        font-family:'Open Sans', sans-serif ;
+    }
+    .main_contain{
+        display: grid;
+        gap: 3rem;
+    }
+    .lorem2 p{
+        font-size: 10px;
+    }
+    .main_contain2 p{
+        font-size: 12px;
+        width: 30rem;
+        font-family:'Open Sans', sans-serif ;
+        margin-top: 2.5rem;
+        margin-bottom: 0rem;
+    }
+    .subscribe{
+        margin-top: -7.5rem;
         margin-bottom: 2rem;
     }
     .foot-design-contain{
